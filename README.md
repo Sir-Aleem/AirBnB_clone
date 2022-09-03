@@ -1,6 +1,6 @@
-#AirBnb Clone - The Console
+# AirBnb Clone - The Console
 
-##Authors
+## Authors
 
 	Aleem Ayobami
 
@@ -92,7 +92,7 @@ Prior to using our console, please ensure that all files from the master branch 
 
 
 
-./console.py
+	./console.py
 
 
 
@@ -102,7 +102,7 @@ The following commands are available in the console:
 
 
 
-###create
+### create
 
 
 
@@ -112,7 +112,7 @@ If the class name is missing, the message '** class name missing **' will be pri
 
 If the class name does not exist, the message '** class doesn't exist **' will be printed.
 
-###show
+### show
 
 
 
@@ -126,7 +126,7 @@ If the id is missing, the message '** instance id missing **' will be printed.
 
 If the instance of the class name does not exist for the given id, the message '** no instance found **' will be printed.
 
-###destroy
+### destroy
 
 
 
@@ -140,7 +140,7 @@ If the id is missing, the message '** instance id missing **' will be printed.
 
 If the instance of the class name does not exist for the given id, the message '** no instance found **' will be printed.
 
-###all
+### all
 
 
 
@@ -150,7 +150,7 @@ The printed result will be in a list of strings.
 
 If the class name does not exist, the message '** class doesn't exist **' will be printed.
 
-###update
+### update
 
 
 
@@ -172,7 +172,7 @@ All arguments after the attribute value will be ignored.
 
 Only attributes with values of a string, integer, or float type can be updated.
 
-###count
+### count
 
 
 
@@ -182,51 +182,51 @@ These commands can be recognized by one or two standardized formats. The availab
 
 
 
-####create
+#### create
 
 create <class name>
 
-####show
+#### show
 
 show <class name> <id>
 
 <class name>.show(<id>)
 
-####destroy
+#### destroy
 
 destroy <class name> <id>
 
 <class name>.destroy(<id>)
 
-####all
+#### all
 
 all <class name>
 
 <class name>.all()
 
-####update
+#### update
 
 update <class name> <id> <attribute name> <attribute value>
 
 <class name>.update(<id>, <attribute name>, <attribute value>)
 
-####count
+#### count
 
 <class name>.count()
 
-##Examples
+## Examples
 
 Once the command ./console.py has been typed into the terminal, the user will be prompted with (hbnb). The user can proceed to enter the commands that have been specified in the previous section into the terminal. Some examples are as follows:
 
 
 
-create
+#### create
 
 
 
 create BaseModel
 
-show
+#### show
 
 
 
@@ -234,7 +234,7 @@ show BaseModel 0aafa26e-cacb-4669-be7d-791d03f9764b
 
 Place.show(0aafa26e-cacb-4669-be7d-791d03f9764e)
 
-destroy
+#### destroy
 
 
 
@@ -242,7 +242,7 @@ destroy BaseModel 0aafa26e-cacb-4669-be7d-791d03f9764b
 
 City.destroy(0aafa26e-cacb-4669-be7d-791d03f9764b)
 
-all
+#### all
 
 
 
@@ -252,7 +252,7 @@ all
 
 Amenity.all()
 
-update
+#### update
 
 
 
@@ -260,7 +260,7 @@ update BaseModel
 
 update BaseModel 0aafa26e-cacb-4669-be7d-791d03f9764b
 
-count
+#### count
 
 
 
